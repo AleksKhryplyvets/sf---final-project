@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --subheader-color: #bb2528;
+  --text-color: #232323;
+  --background-color: #f9f4ee;
+  --backgroung-for-little-block: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
