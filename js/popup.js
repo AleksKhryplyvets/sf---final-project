@@ -1,5 +1,6 @@
 (function () {
   const popupContainer = document.querySelector(".popup");
+  const popup = document.querySelector(".popup__main ");
   const openPopupButton = document.querySelectorAll(".open-popup");
   const closePopup = document.querySelector(".close-popup");
 
@@ -12,7 +13,7 @@
     button.addEventListener("click", element);
   });
 
-  function closeButton() {
+  function closeButton(e) {
     popupContainer.classList.remove("active");
     e.preventDefault();
   }
@@ -20,7 +21,7 @@
   closePopup.addEventListener("click", closeButton);
 
   document.addEventListener("click", (e) => {
-    if (e.target === popupContainer) {
+    if (e.target === popup) {
       popupContainer.classList.remove("active");
     }
   });
