@@ -135,3 +135,9 @@
   height: 150px;
   font-stretch: normal;
 }
+
+#popup-form-status {
+  font-weight: 700;
+  text-align: center;
+  color: var(--backgroung-for-little-block);
+}
